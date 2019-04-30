@@ -1,0 +1,164 @@
+
+$global-default-family: 'PingFang-SC-Regular';
+
+blockquote,body,button,caption,dd,div,dl,dt,fieldset,figure,form,h1,h2,h3,h4,h5,h6,hr,html,input,legend,li,menu,ol,p,pre,table,td,textarea,th,ul {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+  }
+
+  address,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+    display: block;
+  }
+
+  // body h1, body h2, body h3, body h4,body h5,body h6 {
+  //   color: map_get($global-color,title);
+  // }
+
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+  caption,th {
+    text-align: left;
+  }
+
+  abbr,body,fieldset,html,iframe,img {
+    border: 0;
+  }
+
+  // img {
+  //   display: block;
+  // }
+
+  address,cite,dfn,em,i,var {
+    font-style: normal;
+  }
+
+  [hidefocus],summary {
+    outline: 0;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  // h1,h2,h3,h4,h5,h6,small {
+  //   font-size: 100%;
+  // }
+
+  // sub,sup {
+  //   font-size: 83%;
+  // }
+
+  code,kbd,pre,samp {
+    font-family: inherit;
+  }
+
+  q:after,q:before {
+    content: none;
+  }
+
+  textarea {
+    overflow: auto;
+    resize: none;
+  }
+
+  label,summary {
+    cursor: default;
+  }
+
+  // a,button {
+  //   cursor: pointer;
+  //   color: #111;
+  // }
+  
+  body{
+    color: map_get($global-color,main);
+
+    a,a:hover,a:focus,del,ins,s,u {
+      text-decoration: none;
+      outline: 0;
+    }
+  }
+
+  html body,html button,html input,html keygen,html legend,html select,html textarea,html pre,html p, html label {
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: map_get($global-font,normal);
+    //font-weight: 400;
+    outline: 0;
+    font-family: "SF Pro SC","SF Pro Text","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif  ;
+  }
+
+  // label {
+
+  //   font-family: "SF Pro SC","SF Pro Text","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif  ;
+  // }
+
+  input::-ms-clear,input::-ms-reveal {
+    display: none;
+  }
+
+  #root {
+    height: 100%;
+  }
+
+  :root * {
+    //-webkit-filter: none !ie;
+    //filter: none !ie
+  }
+
+  *,:after,:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+
+  * {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  html {
+
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+  }
+
+  input {
+    box-shadow: none;
+  }
+
+  video {
+    width: 100%;
+    height: auto;
+  }
+
+  ::-webkit-input-placeholder {
+    color: #999;
+  }
+
+  :-moz-placeholder {
+    color: #999;
+  }
+
+  ::-moz-placeholder {
+    color: #999;
+  }
+
+  :-ms-input-placeholder {
+    color: #999;
+  }
+  .ant-message {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+  }

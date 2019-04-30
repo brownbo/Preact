@@ -1,0 +1,79 @@
+$global-color: (
+        a: #FC424C,
+        b:  #333,
+        c: #108ee9,
+        shadow:#c7eaeb,
+        botton_hover:#00999D,
+        disabled:#B6C0C4,
+        no_logo:#e8e8e8,
+        link_color:#52B4F0,
+
+        primary: #18A7AA,
+        secondary:#1EAAF1,
+        labelFont: #807474,
+        labelColor: #F0C330,
+        baseFont: #646464,
+        border: #e9e9e9,
+        attention: #FF2D55,
+        warming: #FF9802,
+        normal: #4CD964,
+        activeFont: #fff,
+        background: #FCFDFE,
+        header: #001F20,
+        main:rgba(0,0,0,0.65),
+        title:rgba(0,0,0,0.75),
+        lightBackground: rgba(24,167,170,.05),
+        lightFont: rgba(0,0,0,0.65)
+);
+
+$global-width :(
+        wrap:1200px,
+);
+
+$global-font :(
+        bold:500,
+        normal:400,
+);
+
+$global-padding: (
+        primary: 16px
+);
+$global-shadow: (
+        primary: 0px 15px 10px rgba(33, 166, 168, 0.2), // green
+        lightGray: 0px 0px 60px 0px rgba(199, 213, 228, 0.37), //gray
+        lightGreen: 0px 15px 10px rgba(33, 166, 168, 0.2)
+);
+$global-width: (
+        break-point-xs: 414px,
+        break-point-sm: 768px,
+        break-point-md: 992px,
+        break-point-lg: 1200px,
+        account-width: 360px,
+);
+$global-border: (
+        card: 16px,
+        primary: 22px,
+        sm: 9px,
+        break-point-md: 992px,
+        break-point-lg: 1200px,
+        account-width: 360px,
+);
+$global-font-size: (
+        h1: 36px,
+        h2: 20px,
+        h3: 16px,
+        normal: 14px,
+        sm: 12px,
+);
+$global-height: (
+        avatarSize: 63px,
+        medium: 36px,
+        small: 32px,
+        account-height: 150px,
+        mini: 16px,
+        item-height: 30px,
+        statistics-height: 50px
+);
+$global-line-height: (
+        medium: 26px,
+);

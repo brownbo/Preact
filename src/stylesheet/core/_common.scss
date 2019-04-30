@@ -1,0 +1,96 @@
+body .l-button {
+    color: #fff;
+    background-color: map_get($global-color,a);
+    border-radius: 4px;
+    transition: all .3s;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+}
+
+
+
+body .l-button:focus {
+    color: #fff;
+    background-color: map_get($global-color,a);
+}
+
+body .l-button:hover {
+    color: #fff;
+    background-color: #e43e48;
+}
+
+body .d-button {
+    background:rgba(255,255,255,1);
+    border-radius:4px;
+    border:1px solid rgba(232,232,232,1 );
+    font-size: 14px;
+    cursor: pointer;
+    transition: all .3s;
+    color: map_get($global-color,main);
+}
+
+
+
+body .d-button:focus {
+    // background: map_get($global-color, a);
+    // border:1px solid map_get($global-color, a);
+    // color: #fff;
+    background:rgba(255,255,255,1);
+  
+    border:1px solid rgba(232,232,232,1 );
+ 
+    color: map_get($global-color,main);
+}
+
+body .d-button:hover {
+    background: map_get($global-color, a);
+    border:1px solid map_get($global-color, a);
+    color: #fff;
+}
+
+.input-title {
+   
+    // padding-top: 20px;
+    width: 100px;
+    color: map_get($global-color,title);
+    // font-weight: map_get($global-font,bold);
+    font-size: 14px;
+    text-align: right;
+    position: relative
+}
+
+.input-title::after {
+    content: '';
+    position: relative;
+    top: -0.5px;
+    margin: 0 8px 0 2px;
+}
+
+.title-required::before {
+    display: inline-block;
+    margin-right: 4px;
+    content: "*";
+    font-family: SimSun;
+    line-height: 1;
+    font-size: 14px;
+    color: map_get($global-color,main);
+}
+
+body .ant-form-item-required::before {
+    color: map_get($global-color,title);
+}
+
+body .ant-form-item-label > label::after {
+    content: '';
+}
+
+.button-list-i {
+    width: 120px;
+    height: 32px;
+}
+
+.button-list-i:nth-child(2) {
+    margin-left: 40px;
+}
+
